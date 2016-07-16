@@ -5,11 +5,11 @@ var problem1 = function(){
   {
     if(num % 3 === 0)
     {
-      answer = num + answer;
+      answer += num;
     }
     else if(num % 5 === 0)
     {
-      answer = num + answer;
+      answer += num;
     }
   }
 
